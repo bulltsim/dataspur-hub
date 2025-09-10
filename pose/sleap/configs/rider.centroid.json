@@ -1,0 +1,35 @@
+{
+  "training": {
+    "batch_size": 8,
+    "num_epochs": 200
+  },
+  "data": {
+    "dataset": "datasets/keypoints/rider.slp",
+    "split": {
+      "train": 0.95,
+      "val": 0.05
+    }
+  },
+  "model": {
+    "type": "centroid",
+    "backbone": "resnet50",
+    "input_size": 384
+  },
+  "labels": [
+    "head",
+    "neck",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "right_hip",
+    "right_knee",
+    "right_ankle",
+    "pelvis"
+  ]
+}
