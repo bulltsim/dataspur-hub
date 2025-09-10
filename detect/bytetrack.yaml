@@ -1,0 +1,7 @@
+# ByteTrack tracker configuration for Ultralytics
+mot:
+  tracker_type: bytetrack
+  track_high_thresh: 0.6
+  track_low_thresh: 0.1
+  track_buffer: 30
+  match_thresh: 0.8
