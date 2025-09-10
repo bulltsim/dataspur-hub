@@ -1,0 +1,17 @@
+# Python / build
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+# Training outputs
+runs/
+outputs/
+# IDE
+.vscode/
+.idea/
+# Datasets/cache
+datasets/cache/
+tmp/
