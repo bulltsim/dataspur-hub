@@ -1,0 +1,10 @@
+path: ./datasets
+train: annotations/yolo/train
+val: annotations/yolo/val
+names:
+  0: rider
+  1: bull
+  2: horse
+  3: chute
+  4: barrel
+  5: fence
